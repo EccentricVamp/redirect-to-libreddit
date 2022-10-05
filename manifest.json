@@ -1,0 +1,21 @@
+{
+    "name": "Redirect to Libreddit",
+    "description": "Redirects navigation from Reddit to Libreddit",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    },
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "*://*.reddit.com/"
+    ]
+}

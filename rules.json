@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "transform": {
+                    "host": "libreddit.spike.codes"
+                }
+            }
+        },
+        "condition": {
+            "requestDomains": [
+                "reddit.com"
+            ],
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame"
+            ]
+        }
+    }
+]
