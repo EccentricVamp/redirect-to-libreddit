@@ -1,4 +1,5 @@
 {
+    "$schema": "https://json.schemastore.org/chrome-manifest",
     "name": "Redirect to Libreddit",
     "description": "Redirects navigation from Reddit to Libreddit",
     "version": "0.1.0",
